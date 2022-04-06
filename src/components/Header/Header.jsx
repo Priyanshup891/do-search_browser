@@ -3,7 +3,8 @@ import './header.css';
 
 import Search from '../Search/Search';
 import NewsFeeds from '../NewsFeeds/NewsFeeds';
-import decore from '../../assets/images/decore.svg';
+import ImportantLinks from '../ImportantLinks/ImportantLinks';
+
 
 
 
@@ -16,6 +17,9 @@ const Header = () => {
             <div className='header__section-container_Search'>
                 <h1>do-Search</h1>
                 <Search/>
+            </div>
+            <div className='header__section-container_ImportantLinks'>
+              <ImportantLinks/>
             </div>
             <div className='header__section-container_NewsFeeds'>
                 <NewsFeeds/>
