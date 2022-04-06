@@ -1,0 +1,27 @@
+.search__container{
+    width: 745px;
+height: 58px;
+    background: #070C13;
+border: 5px solid rgba(6, 38, 84, 0.67);
+box-sizing: border-box;
+border-radius: 40px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+padding: 0 1rem;
+}
+
+.search__container input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #AAAAAA;
+margin-left: 1rem;
+outline: none;
+}
